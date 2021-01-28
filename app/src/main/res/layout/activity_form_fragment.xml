@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_container">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#97B6F6"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/id_edt_notes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="6"
+            android:backgroundTint="@color/white"
+            android:layout_margin="20dp"/>
+
+        <Button
+            android:id="@+id/id_btn_save"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="20dp"
+            android:text="Save"/>
+
+        <Button
+            android:id="@+id/id_btn_cancel"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="170dp"
+            android:text="Cancel" />
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
